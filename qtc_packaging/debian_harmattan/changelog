@@ -1,0 +1,214 @@
+bookmarkwizard (1.4.11) unstable; urgency=low
+
+  * UPDATED RELEASE
+  * BUGFIX : opera export not working
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Mon, 05 Nov 2012 18:49:00 +0300
+
+bookmarkwizard (1.4.10) unstable; urgency=low
+
+  * RELEASE
+  * Added support for PR 1.1
+  * Version nr "frozen" to 1.4 in honor of hope on PR 1.4!
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 04 Nov 2012 02:35:00 +0300
+
+bookmarkwizard (1.4.4) unstable; urgency=low
+
+  * BUGFIX: Added favicon.ico to favicon url for Firefox bookmarks, still buggy tho.
+  * BUGFIX: Fixed updating of list after exporting Bookmark
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 04 Nov 2012 02:35:00 +0300
+
+bookmarkwizard (1.4.3) unstable; urgency=low
+
+  * BUGFIX: Fixed caching in image provider
+  * BUGFIX: Fixed exporting resolution (to not break target formats) for Firefox, Opera
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 03 Nov 2012 02:35:00 +0300
+
+bookmarkwizard (1.4.2) unstable; urgency=low
+
+  * FEATURE: Export to / from Firefox bookmarks added
+  * FEATURE: Added Jpeg file filter to Gallery filter
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Wed, 31 Oct 2012 23:31:00 +0300
+
+bookmarkwizard (1.4.1) unstable; urgency=low
+
+  * FEATURE: Export to / from Opera bookmarks added
+  * FEATURE: Re-Added Gallery
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Mon, 22 Oct 2012 21:15:00 +0300
+
+bookmarkwizard (1.4.0) unstable; urgency=low
+
+  * BUGFIX: Category Icon was not set correctly when exporting to home screen
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 20 Oct 2012 01:15:00 +0300
+
+bookmarkwizard (1.3.9) unstable; urgency=low
+
+  * FEATURE: Generalized image provider
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Thu, 18 Oct 2012 22:15:00 +0300
+
+bookmarkwizard (1.3.8) unstable; urgency=low
+
+  * FEATURE: Opera bookmark support
+  * FEATURE: Added Icon image in editing screen (for editing favicon)
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 18 Oct 2012 22:15:00 +0300
+
+bookmarkwizard (1.3.7) unstable; urgency=low
+
+  * BUGFIX: Removed libdbmanager.a from deployment
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Mon, 10 Sep 2012 21:42:00 +0300
+
+bookmarkwizard (1.3.6) unstable; urgency=low
+
+  * BUGFIX: Path of exe was wrong in manifest!
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 9 Sep 2012 22:59:00 +0300
+
+bookmarkwizard (1.3.5) unstable; urgency=low
+
+  * DEBUG BUILD
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 9 Sep 2012 22:32:00 +0300
+
+bookmarkwizard (1.3.4) unstable; urgency=low
+
+  * FEATURE: Added Fav Icons export to Firefox
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 9 Sep 2012 13:58:00 +0300
+
+bookmarkwizard (1.3.3) unstable; urgency=low
+
+  * FEATURE: Added proper DB manager classes.
+  * FEATURE: Added multiprofile support for firefox. NOTE : Bookmarks exported to FF will be saved in default profile *ONLY*
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 8 Sep 2012 22:46:00 +0300
+
+bookmarkwizard (1.3.2) unstable; urgency=low
+
+  * FEATURE: Deletion of bookmarks
+  * FEATURE: Added menu for removal / pinning of bookmarks
+  * BUGFIX: QML multifile & Javascript does not work together. Variables defined in js are local to a single file only..
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Thu, 23 Aug 2012 22:46:00 +0300
+
+
+bookmarkwizard (1.3.1) unstable; urgency=low
+
+  * FEATURE: Added Firefox fav Icon
+  * FEATURE: Added gallery for bookmark fav icon editing (BUGGY)
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Thu, 23 Aug 2012 00:36:00 +0300
+
+bookmarkwizard (1.2.1) unstable; urgency=low
+
+  * BUGFIX: Added enough Margin to Bookmark name TextInput element.
+  * Updated description of package
+  * FEATURE: Added "Hold to edit" text to item that is pressed
+  * FEATURE: Added Firefox bookmark listing
+  * FEATURE: Increased maximum size of Bookmark name to 255 (for Firefox bookmarks)
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 20 Aug 2012 23:09:00 +0300
+
+bookmarkwizard (1.1.2) unstable; urgency=low
+
+  * BUGFIX: Moved plugin under /opt direcotry (Nokia requirement)
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Fri, 19 Aug 2012 23:09:00 +0300
+
+bookmarkwizard (1.1.1) unstable; urgency=low
+
+  * CLUDGE: PR 1.0 compatibility fix. Missing plugin dir in qml file causes things to go havoc. See https://bugreports.qt-project.org/browse/QTSDK-1165
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 11 Aug 2012 23:09:00 +0300
+
+bookmarkwizard (1.1.0) unstable; urgency=low
+
+  * BUGFIX / FEATURE : Added "No Bookmarks to edit" message (to avoid empty startup screen, thanks Nokia QA!).
+  * BUGFIX : Added Application (=Package) manager icon
+  * Re-did Icons (URL text was not visible due to black color of font)
+  * Revised and perfected description of package
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sat, 11 Aug 2012 23:09:00 +0300
+
+bookmarkwizard (1.0.4) unstable; urgency=low
+
+  * MORE Bug fixes:
+  * Text writeback only works when TextElement has no focus (BUG IN QT?)
+  * Fixed UTF 8 issues
+  * Added focus to main list view (tentative)
+  * Added icons!
+  * Updated description & package stuff
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Thu, 9 Aug 2012 23:39:00 +0300
+
+bookmarkwizard (1.0.3) unstable; urgency=low
+
+  * Bug fixes:
+  * Replaced ListView.currentIndex in QML with Javascript variable
+  * Upcased "L" of "Link" in "Type" desktop file property
+  * Added FocusScope
+  * Added hiding of keyboard (sigh)
+
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Wed, 8 Aug 2012 23:07:00 +0300
+
+bookmarkwizard (1.0.2) unstable; urgency=low
+
+  * Fixed font for Harmattan
+  * Added missing close page after saving bookmark!
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 5 Aug 2012 23:07:00 +0300
+
+bookmarkwizard (1.0.1) unstable; urgency=low
+
+  * Added Email address :)
+
+ -- Kastlunger Tone <users.giulietta@gmail.com>  Sun, 5 Aug 2012 23:07:00 +0300
+
+
+bookmarkwizard (1.0.0) unstable; urgency=low
+
+  * Added Saving capability.
+  * Minor UI fixes (colors, etc)
+
+ -- Kastlunger Tone <>  Tue, 5 Aug 2012 23:07:00 +0300
+
+bookmarkwizard (0.0.5) unstable; urgency=low
+
+  * Changed name to BWizz
+  * Added opacity to window, view & QML (still a bit buggy tho)
+
+ -- Kastlunger Tone <>  Tue, 31 Jul 2012 23:45:00 +0300
+
+bookmarkwizard (0.0.4) unstable; urgency=low
+
+  * Fixed qmake scripts for deployment of plugin on Harmattan (to plugin directory)
+
+ -- Kastlunger Tone <>  Tue, 31 Jul 2012 21:55:00 +0300
+
+bookmarkwizard (0.0.3) unstable; urgency=low
+
+  * Added QML plugin import directory to deploy script
+  * Updated .desktop file to mirror name of frontend exe instead of bookmarkwizard
+
+ -- Kastlunger Tone <>  Mon, 30 Jul 2012 22:55:00 +0300
+
+bookmarkwizard (0.0.2) unstable; urgency=low
+
+  * First prototype of list view
+  * Added missing _harmattan.desktop file for frontend
+ -- KastlungerTone <>  Mon, 30 Jul 2012 22:55:00 +0300
+
+bookmarkwizard (0.0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- unknown <>  Sat, 28 Jul 2012 16:20:46 +0300

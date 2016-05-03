@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=BWizz
+Exec=/usr/bin/invoker --type=d -s /opt/frontend/bin/frontend
+Icon=/usr/share/icons/hicolor/80x80/apps/bwizz_icon80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

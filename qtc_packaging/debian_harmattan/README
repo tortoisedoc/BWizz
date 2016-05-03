@@ -1,0 +1,23 @@
+The Debian Package bookmarkwizard
+----------------------------
+
+This package includes a tool to edit, remove, export bookmarks.
+
+Currently supported browsers:
+ - Nokia in-built browser
+ - Opera
+ - Firefox
+
+WARNING : might break your bookmarks if used unappropriately. USE AT YOUR OWN RISK.
+
+KNOWN ISSUES :
+--------------------
+*Firefox:
+  There is a known issue in exporting FavIcons to Firefox;
+  FF identifies FavIcons as "<websiteurl>/favicon.ico";
+  BWizz exports the FavIcon as "<bookmarkurl>/favicon.ico";
+  thus, if the Bookmark's URL does not match with the actual FavIcon's website url,
+  Firefox will "reload" the FavIcon from the website, overriding the exported one.
+  WORKAROUNDS:
+	- Export, load the website in FF and then reedit the FavIcon in BWizz;
+

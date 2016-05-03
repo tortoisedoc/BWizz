@@ -1,0 +1,6 @@
+ConfirmationBox ConfirmationBox.qml
+Gallery ./Gallery.qml
+EditBMPage ./EditBMPage.qml
+NoBookmarks ./NoBookmarks.qml
+plugin BookmarkModelPlugin /opt/frontend/plugins
+
